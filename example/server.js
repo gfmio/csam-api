@@ -82,8 +82,7 @@ const config = {
   }
 }
 
-const sapi = require('../index.js')
-var server = sapi.Server(config)
+var server = require('csam-api').Server(config)
 server.configurePassport(config.passport)
 
 //
