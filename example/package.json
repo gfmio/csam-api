@@ -1,0 +1,16 @@
+{
+  "name": "csam-api-example",
+  "version": "0.0.1",
+  "description": "An example for csam-api",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon server.js"
+  },
+  "author": "Frédérique Mittelstaedt <frederique@gfm.io> (https://www.gfm.io)",
+  "license": "MIT",
+  "dependencies": {
+    "csam-api": "*",
+    "passport-google-oauth20": "^1.0.0"
+  }
+}

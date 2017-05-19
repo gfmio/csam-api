@@ -1,0 +1,29 @@
+{
+  "name": "csam-api",
+  "version": "0.1.0",
+  "description": "A powerful API framework",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfmio/simple-api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Frédérique Mittelstaedt <frederique@gfm.io> (https://www.gfm.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gfmio/simple-api/issues"
+  },
+  "homepage": "https://github.com/gfmio/simple-api#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "compression": "^1.6.2",
+    "connect-redis": "^3.3.0",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "mongoose": "^4.10.0",
+    "passport": "^0.3.2",
+    "performance-now": "^2.1.0"
+  }
+}
